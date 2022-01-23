@@ -341,11 +341,11 @@ function shareText(score) {
         return '倒计时多了' + ((deviation_time / 1000) - 20).toFixed(2) + "s";
     }
     SubmitResults();
-    if (score <= 49) return '试着好好练一下？';
-    if (score <= 99) return 'TCL';
-    if (score <= 149) return 'TQL';
-    if (score <= 199) return '您';
-    return '人？';
+    if (score <= 49) return '你这也叫撸猫？';
+    if (score <= 99) return '呆比被你撸醒了';
+    if (score <= 149) return '呆比被你撸得喵喵叫';
+    if (score <= 199) return '呆比被你撸掉毛了';
+    return '？';
 }
 
 function toStr(obj) {
